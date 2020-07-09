@@ -4,12 +4,7 @@ import io.vertx.circuitbreaker.CircuitBreaker
 import io.vertx.circuitbreaker.CircuitBreakerOptions
 import io.vertx.core.Vertx
 import io.vertx.core.json.Json
-import io.vertx.core.json.JsonObject
 import io.vertx.ext.web.Router
-import kotlinx.coroutines.Deferred
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.async
-import kotlinx.coroutines.runBlocking
 
 fun main(args: Array<String>) {
     println("Hello, World")
